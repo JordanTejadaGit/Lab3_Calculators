@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Age Calculator</h1>
-        <form method="post" action="calculateAge">
+        <form method="post" action="age">
         <table>
             <tr>
                 <td>
@@ -24,8 +24,9 @@
                 </td>
             </tr>
         </table>
-            <p>${error}</p>
+            <p>${message}</p>
         <input type="submit" value="Age next birthday">
         </form>
+        <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
